@@ -4,7 +4,7 @@ forEach()
 
 */
 
-//forEach() --> passing 3 parameters
+//forEach() --> It accepts 3 parameters & is void (don't return anything)
 // Let's see how to implement if we pass 3 parameters to forEach()
 //----------------------------------------------------------------
 //In the below, the three parameters passed are a,b,c. We can pass only two parameters, depending on the requirement.
@@ -102,7 +102,7 @@ console.log(`Sum : ${sum}`) */
 // reduce() returns a number
 // reduce() runs len-1 times. 
 // The 0th index becomes prevVal & 1st index becomes currVal.
-// Outside call-back func, it accepts 1 initial value to return as final value
+// Outside of call-back func, it accepts 1 initial value to return as final value
 
 
 /* const values = [1,2,3,4,5]
