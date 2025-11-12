@@ -1,10 +1,7 @@
 /*
 1. Modules
-2. this 
-3. Strings
-4. global Ogject
-5. Objects - Data Structures
-6. JSON
+2. Common JS - export & import
+3. ES Module - export & import 
 */
 
 
