@@ -111,8 +111,27 @@ function step4(){
 }
 
 
-async function run() {
-    try{
+// async function run() {
+//     try{
+//         await step1()
+//         await step2()
+//         await step3()
+//         await step4()
+//         console.log("Promise Fulfilled!!!")
+
+//     }
+//     catch(error){
+//         console.log("Promise Rejected!!!")
+//     }
+    
+// }
+
+// run()
+
+
+// There's No need to write a run() function & call other functions. We can directly write try-catch & it executes as below:
+
+try{
         await step1()
         await step2()
         await step3()
@@ -123,7 +142,3 @@ async function run() {
     catch(error){
         console.log("Promise Rejected!!!")
     }
-    
-}
-
-run()
